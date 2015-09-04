@@ -9,7 +9,7 @@ setup(
     long_description=open('README.md').read(),
     tests_require=[
         "django>1.4",
-        'django-nose==1.2',
+        'django-nose==1.4.1',
         "coverage==3.7.1",
         "pep8==1.5.7",
         "pep257==0.3.2",
