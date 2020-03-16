@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import uuid
 from django.test import TestCase
 from django.test.client import RequestFactory
@@ -63,6 +64,7 @@ class DummyLanguagePreferenceMiddleware(LanguagePreferenceMiddleware):
 
     def __init__(self):
         self._cache = {}
+        super(DummyLanguagePreferenceMiddleware, self).__init__()
 
     def get_user_language_preference(self, user):
         return self._cache.get(user, None)
