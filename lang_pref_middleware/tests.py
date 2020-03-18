@@ -7,7 +7,7 @@ from django.contrib.sessions.middleware import SessionMiddleware
 from lang_pref_middleware.middleware import LanguagePreferenceMiddleware
 
 
-class LangPrefMiddlewareTestCaseMixin(object):
+class LangPrefMiddlewareTestCaseMixin():
     middleware_class = None
 
     def setUp(self):
@@ -41,7 +41,7 @@ class LangPrefMiddlewareTestCaseMixin(object):
         """
         self.set_user_language_preference(self.user, 'eo')
         self.middleware.process_request(self.request)
-        self.assertEquals(self.request.session['django_language'], 'eo')
+        self.assertEqual(self.request.session['django_language'], 'eo')
 
     def test_language_in_session(self):
         """
@@ -52,7 +52,7 @@ class LangPrefMiddlewareTestCaseMixin(object):
         self.set_user_language_preference(self.user, 'eo')
         self.middleware.process_request(self.request)
 
-        self.assertEquals(self.request.session['django_language'], 'en')
+        self.assertEqual(self.request.session['django_language'], 'en')
 
 
 class DummyLanguagePreferenceMiddleware(LanguagePreferenceMiddleware):

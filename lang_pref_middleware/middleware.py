@@ -9,7 +9,7 @@ class LanguagePreferenceMiddleware(MiddlewareMixin):
     """
 
     def process_request(self, request):
-        """ Set the language preference, if any, on the session. """
+        """Set the language preference, if any, on the session."""
         user = request.user
         if user.is_authenticated and 'django_language' not in request.session:
             user_pref = self.get_user_language_preference(user)

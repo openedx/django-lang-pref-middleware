@@ -1,6 +1,4 @@
-"""
-Init module for lang_pref_middleware.
-"""
+"""Init module for lang_pref_middleware."""
 
 from __future__ import unicode_literals
 
