@@ -1,0 +1,4 @@
+include LICENSE.txt
+include README.md
+include requirements/base.in
+recursive-include lang_pref_middleware *.html *.png *.gif *js *.css *jpg *jpeg *svg *py

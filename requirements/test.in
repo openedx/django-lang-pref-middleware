@@ -1,0 +1,10 @@
+# Requirements for test runs
+-c constraints.txt
+
+-r base.txt               # Core dependencies for the cookiecutter
+
+coverage
+django-nose
+edx-lint                  # edX pylint rules and plugins
+pep257                    # PEP 257 doc style validation
+pycodestyle               # PEP 8 compliance validation
