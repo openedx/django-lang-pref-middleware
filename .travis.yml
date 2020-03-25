@@ -1,0 +1,30 @@
+language: python
+python: "3.5"
+
+env:
+  - TOXENV=django111
+  - TOXENV=django20
+  - TOXENV=django21
+  - TOXENV=django22
+
+matrix:
+  include:
+    - python: "3.8"
+      env: TOXENV=py38-django22
+    - env: TOXENV=quality
+
+install:
+  - make requirements
+script:
+  - tox
+deploy:
+  provider: pypi
+  user: edx
+  password:
+    secure: cnCf0zDyTEJycCDcxhH1GsvOWNGImjwc8WIrD/D5Hsk7p0IeMaEjc/t6gc1LO2iQKGlZq/BLDxUBmsEbrQUD1wvSBg/J+9Ji6yn9jJ87X6QSNq+Xy0brLe9RAeMElG3OLqbj6FHRMzk2EmOEJXI9ATqlXfdqFwgKCYrvf2GT2Ug=
+  on:
+    tags: true
+    python: "3.5"
+    condition: "$TOXENV = django111"
+    distributions: sdist bdist_wheel
+    repo: edx/django-lang-pref-middleware
