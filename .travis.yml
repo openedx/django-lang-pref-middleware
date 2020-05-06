@@ -1,16 +1,12 @@
 language: python
-python: '3.5'
+python:
+  - 3.5
+  - 3.8
 env:
-- TOXENV=django111
-- TOXENV=django20
-- TOXENV=django21
 - TOXENV=django22
-matrix:
-  include:
-  - python: '3.8'
-    env: TOXENV=py38-django22
-  - env: TOXENV=quality
+- TOXENV=quality
 install:
+- pip install pip==20.0.2
 - make requirements
 script:
 - tox
@@ -21,7 +17,7 @@ deploy:
     secure: qhgSqrSxjfHxTBvE9ioFnlVvmUPYdKrdpgvmJr/2ZukbCwqdS9w+S8tmtuRkvKuKGTZYp4im138oOAO6OFSLnC95nyWTb1vsC1SeUj544XxgbTsO5JILE9revU/p9vdkBepLzG0oz2Rj1N6h9qrCCc5GKpS7UMuz9Oxli+pbLRU=
   on:
     tags: true
-    python: '3.5'
-    condition: "$TOXENV = django111"
+    python: 3.5
+    condition: "$TOXENV = django22"
     distributions: sdist bdist_wheel
     repo: edx/django-lang-pref-middleware
