@@ -1,4 +1,3 @@
-from __future__ import absolute_import
 import uuid
 from django.test import TestCase
 from django.test.client import RequestFactory
