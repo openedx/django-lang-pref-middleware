@@ -8,7 +8,7 @@ appdirs==1.4.4            # via -r requirements/travis.txt, virtualenv
 astroid==2.3.3            # via -r requirements/test.txt, pylint, pylint-celery
 click-log==0.3.2          # via -r requirements/test.txt, edx-lint
 click==7.1.2              # via -r requirements/pip-tools.txt, -r requirements/test.txt, click-log, edx-lint, pip-tools
-coverage==5.1             # via -r requirements/test.txt
+coverage==5.2             # via -r requirements/test.txt
 distlib==0.3.1            # via -r requirements/travis.txt, virtualenv
 django-nose==1.4.6        # via -r requirements/test.txt
 django==2.2.14            # via -c requirements/constraints.txt, -r requirements/test.txt
@@ -38,7 +38,7 @@ toml==0.10.1              # via -r requirements/travis.txt, tox
 tox-battery==0.6.1        # via -r requirements/dev.in
 tox==3.16.1               # via -r requirements/travis.txt, tox-battery
 typed-ast==1.4.1          # via -r requirements/test.txt, astroid
-virtualenv==20.0.25       # via -r requirements/travis.txt, tox
+virtualenv==20.0.26       # via -r requirements/travis.txt, tox
 wrapt==1.11.2             # via -r requirements/test.txt, astroid
 zipp==1.2.0               # via -r requirements/travis.txt, importlib-metadata, importlib-resources
 
