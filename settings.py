@@ -4,10 +4,9 @@ SECRET_KEY = 'abc123'
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django_nose'
+    'django.contrib.sessions'
 )
-TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+
 ########## IN-MEMORY TEST DATABASE
 DATABASES = {
     "default": {
