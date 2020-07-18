@@ -1,8 +1,9 @@
 import uuid
-from django.test import TestCase
-from django.test.client import RequestFactory
+
 from django.contrib.auth.models import User
 from django.contrib.sessions.middleware import SessionMiddleware
+from django.test import TestCase
+from django.test.client import RequestFactory
 from lang_pref_middleware.middleware import LanguagePreferenceMiddleware
 
 
