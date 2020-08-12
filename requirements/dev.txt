@@ -41,7 +41,7 @@ six==1.15.0               # via -r requirements/pip-tools.txt, -r requirements/t
 sqlparse==0.3.1           # via -r requirements/test.txt, django
 toml==0.10.1              # via -r requirements/test.txt, -r requirements/travis.txt, pytest, tox
 tox-battery==0.6.1        # via -r requirements/dev.in
-tox==3.18.1               # via -r requirements/travis.txt, tox-battery
+tox==3.19.0               # via -r requirements/travis.txt, tox-battery
 typed-ast==1.4.1          # via -r requirements/test.txt, astroid
 virtualenv==20.0.30       # via -r requirements/travis.txt, tox
 wrapt==1.11.2             # via -r requirements/test.txt, astroid
