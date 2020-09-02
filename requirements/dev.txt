@@ -11,7 +11,7 @@ click-log==0.3.2          # via -r requirements/test.txt, edx-lint
 click==7.1.2              # via -r requirements/pip-tools.txt, -r requirements/test.txt, click-log, edx-lint, pip-tools
 coverage==5.2.1           # via -r requirements/test.txt, pytest-cov
 distlib==0.3.1            # via -r requirements/travis.txt, virtualenv
-django==2.2.15            # via -c requirements/constraints.txt, -r requirements/test.txt
+django==2.2.16            # via -c requirements/constraints.txt, -r requirements/test.txt
 edx-lint==1.5.2           # via -r requirements/test.txt
 filelock==3.0.12          # via -r requirements/travis.txt, tox, virtualenv
 importlib-metadata==1.7.0  # via -r requirements/test.txt, -r requirements/travis.txt, pluggy, pytest, tox, virtualenv
@@ -20,7 +20,7 @@ iniconfig==1.0.1          # via -r requirements/test.txt, pytest
 isort==4.3.21             # via -r requirements/test.txt, pylint
 lazy-object-proxy==1.4.3  # via -r requirements/test.txt, astroid
 mccabe==0.6.1             # via -r requirements/test.txt, pylint
-more-itertools==8.4.0     # via -r requirements/test.txt, pytest
+more-itertools==8.5.0     # via -r requirements/test.txt, pytest
 packaging==20.4           # via -r requirements/test.txt, -r requirements/travis.txt, pytest, tox
 pathlib2==2.3.5           # via -r requirements/test.txt, pytest
 pep257==0.7.0             # via -r requirements/test.txt
@@ -41,7 +41,7 @@ six==1.15.0               # via -r requirements/pip-tools.txt, -r requirements/t
 sqlparse==0.3.1           # via -r requirements/test.txt, django
 toml==0.10.1              # via -r requirements/test.txt, -r requirements/travis.txt, pytest, tox
 tox-battery==0.6.1        # via -r requirements/dev.in
-tox==3.19.0               # via -r requirements/travis.txt, tox-battery
+tox==3.20.0               # via -r requirements/travis.txt, tox-battery
 typed-ast==1.4.1          # via -r requirements/test.txt, astroid
 virtualenv==20.0.31       # via -r requirements/travis.txt, tox
 wrapt==1.11.2             # via -r requirements/test.txt, astroid
