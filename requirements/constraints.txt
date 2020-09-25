@@ -10,3 +10,5 @@
 
 Django < 2.3
 
+# importlib-metadata>1.7.0 is causing conflicts in running make upgrade on python35
+importlib-metadata==1.7.0
