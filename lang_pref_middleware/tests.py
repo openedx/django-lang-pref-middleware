@@ -63,7 +63,7 @@ class DummyLanguagePreferenceMiddleware(LanguagePreferenceMiddleware):
 
     def __init__(self):
         self._cache = {}
-        super(DummyLanguagePreferenceMiddleware, self).__init__()
+        super().__init__()
 
     def get_user_language_preference(self, user):
         return self._cache.get(user, None)
