@@ -24,6 +24,7 @@ coverage==5.4
     #   -r requirements/test.in
     #   pytest-cov
     # via
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -c requirements/constraints.txt
     #   -r requirements/base.txt
     #   code-annotations
