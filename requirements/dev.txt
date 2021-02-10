@@ -47,7 +47,7 @@ django==2.2.18
     #   -r requirements/test.txt
     #   code-annotations
     #   edx-lint
-edx-lint==4.0.0
+edx-lint==4.0.1
     # via -r requirements/test.txt
 filelock==3.0.12
     # via
