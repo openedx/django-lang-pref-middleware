@@ -8,7 +8,7 @@ appdirs==1.4.4
     # via
     #   -r requirements/ci.txt
     #   virtualenv
-astroid==2.5
+astroid==2.5.1
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -33,7 +33,7 @@ code-annotations==1.1.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
-coverage==5.4
+coverage==5.5
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -47,7 +47,7 @@ django==2.2.19
     #   -r requirements/test.txt
     #   code-annotations
     #   edx-lint
-edx-lint==4.0.1
+edx-lint==4.1.0
     # via -r requirements/test.txt
 filelock==3.0.12
     # via
@@ -119,7 +119,7 @@ pylint-plugin-utils==0.6
     #   -r requirements/test.txt
     #   pylint-celery
     #   pylint-django
-pylint==2.7.1
+pylint==2.7.2
     # via
     #   -r requirements/test.txt
     #   edx-lint
