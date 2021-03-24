@@ -47,7 +47,7 @@ django==2.2.19
     #   -r requirements/test.txt
     #   code-annotations
     #   edx-lint
-edx-lint==4.1.1
+edx-lint==5.0.0
     # via -r requirements/test.txt
 filelock==3.0.12
     # via
@@ -58,7 +58,7 @@ iniconfig==1.1.1
     # via
     #   -r requirements/test.txt
     #   pytest
-isort==5.7.0
+isort==5.8.0
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -66,7 +66,7 @@ jinja2==2.11.3
     # via
     #   -r requirements/test.txt
     #   code-annotations
-lazy-object-proxy==1.5.2
+lazy-object-proxy==1.6.0
     # via
     #   -r requirements/test.txt
     #   astroid
