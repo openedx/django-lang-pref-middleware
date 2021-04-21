@@ -94,7 +94,7 @@ pep517==0.10.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-pip-tools==6.0.1
+pip-tools==6.1.0
     # via -r requirements/pip-tools.txt
 pluggy==0.13.1
     # via
@@ -190,7 +190,7 @@ tox==3.23.0
     # via
     #   -r requirements/ci.txt
     #   tox-battery
-virtualenv==20.4.3
+virtualenv==20.4.4
     # via
     #   -r requirements/ci.txt
     #   tox
