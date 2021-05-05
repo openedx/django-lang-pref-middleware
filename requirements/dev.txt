@@ -41,7 +41,7 @@ distlib==0.3.1
     # via
     #   -r requirements/ci.txt
     #   virtualenv
-django==2.2.20
+django==2.2.21
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -123,9 +123,8 @@ pylint-plugin-utils==0.6
     #   -r requirements/test.txt
     #   pylint-celery
     #   pylint-django
-pylint==2.7.4
+pylint==2.8.2
     # via
-    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
     #   edx-lint
     #   pylint-celery
@@ -140,12 +139,12 @@ pytest-cov==2.11.1
     # via -r requirements/test.txt
 pytest-django==4.2.0
     # via -r requirements/test.txt
-pytest==6.2.3
+pytest==6.2.4
     # via
     #   -r requirements/test.txt
     #   pytest-cov
     #   pytest-django
-python-slugify==4.0.1
+python-slugify==5.0.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
