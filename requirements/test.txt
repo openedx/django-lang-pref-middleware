@@ -62,9 +62,8 @@ pylint-plugin-utils==0.6
     # via
     #   pylint-celery
     #   pylint-django
-pylint==2.7.4
+pylint==2.8.2
     # via
-    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   edx-lint
     #   pylint-celery
     #   pylint-django
@@ -75,11 +74,11 @@ pytest-cov==2.11.1
     # via -r requirements/test.in
 pytest-django==4.2.0
     # via -r requirements/test.in
-pytest==6.2.3
+pytest==6.2.4
     # via
     #   pytest-cov
     #   pytest-django
-python-slugify==4.0.1
+python-slugify==5.0.0
     # via code-annotations
 pytz==2021.1
     # via
