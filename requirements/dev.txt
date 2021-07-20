@@ -4,11 +4,7 @@
 #
 #    make upgrade
 #
-appdirs==1.4.4
-    # via
-    #   -r requirements/ci.txt
-    #   virtualenv
-astroid==2.6.2
+astroid==2.6.4
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -17,6 +13,10 @@ attrs==21.2.0
     # via
     #   -r requirements/test.txt
     #   pytest
+backports.entry-points-selectable==1.1.0
+    # via
+    #   -r requirements/ci.txt
+    #   virtualenv
 click==8.0.1
     # via
     #   -r requirements/pip-tools.txt
@@ -89,12 +89,16 @@ pbr==5.6.0
     #   stevedore
 pep257==0.7.0
     # via -r requirements/test.txt
-pep517==0.10.0
+pep517==0.11.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
 pip-tools==6.2.0
     # via -r requirements/pip-tools.txt
+platformdirs==2.0.2
+    # via
+    #   -r requirements/ci.txt
+    #   virtualenv
 pluggy==0.13.1
     # via
     #   -r requirements/ci.txt
@@ -177,20 +181,22 @@ text-unidecode==1.3
 toml==0.10.2
     # via
     #   -r requirements/ci.txt
-    #   -r requirements/pip-tools.txt
     #   -r requirements/test.txt
-    #   pep517
     #   pylint
     #   pytest
     #   pytest-cov
     #   tox
-tox==3.23.1
+tomli==1.0.4
+    # via
+    #   -r requirements/pip-tools.txt
+    #   pep517
+tox==3.24.0
     # via
     #   -r requirements/ci.txt
     #   tox-battery
 tox-battery==0.6.1
     # via -r requirements/dev.in
-virtualenv==20.4.7
+virtualenv==20.6.0
     # via
     #   -r requirements/ci.txt
     #   tox
