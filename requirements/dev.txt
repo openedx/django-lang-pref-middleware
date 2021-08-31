@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.7.2
+astroid==2.7.3
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -95,7 +95,7 @@ pep517==0.11.0
     #   pip-tools
 pip-tools==6.2.0
     # via -r requirements/pip-tools.txt
-platformdirs==2.2.0
+platformdirs==2.3.0
     # via
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
@@ -103,6 +103,7 @@ platformdirs==2.2.0
     #   virtualenv
 pluggy==0.13.1
     # via
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
     #   pytest
@@ -140,7 +141,7 @@ pyparsing==2.4.7
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
     #   packaging
-pytest==6.2.4
+pytest==6.2.5
     # via
     #   -r requirements/test.txt
     #   pytest-cov
