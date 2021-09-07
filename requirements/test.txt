@@ -26,8 +26,7 @@ coverage==5.5
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.txt
-    #   edx-lint
-edx-lint==5.0.0
+edx-lint==5.1.0
     # via -r requirements/test.in
 iniconfig==1.1.1
     # via pytest
@@ -49,10 +48,8 @@ pep257==0.7.0
     # via -r requirements/test.in
 platformdirs==2.3.0
     # via pylint
-pluggy==0.13.1
-    # via
-    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
-    #   pytest
+pluggy==1.0.0
+    # via pytest
 py==1.10.0
     # via pytest
 pycodestyle==2.7.0
