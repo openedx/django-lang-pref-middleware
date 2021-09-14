@@ -167,7 +167,7 @@ six==1.16.0
     #   edx-lint
     #   tox
     #   virtualenv
-sqlparse==0.4.1
+sqlparse==0.4.2
     # via
     #   -r requirements/test.txt
     #   django

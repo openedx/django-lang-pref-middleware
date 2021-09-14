@@ -88,7 +88,7 @@ pyyaml==5.4.1
     # via code-annotations
 six==1.16.0
     # via edx-lint
-sqlparse==0.4.1
+sqlparse==0.4.2
     # via
     #   -r requirements/base.txt
     #   django
