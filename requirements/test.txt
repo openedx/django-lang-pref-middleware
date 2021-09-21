@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-astroid==2.7.3
+astroid==2.8.0
     # via
     #   pylint
     #   pylint-celery
@@ -54,7 +54,7 @@ py==1.10.0
     # via pytest
 pycodestyle==2.7.0
     # via -r requirements/test.in
-pylint==2.10.2
+pylint==2.11.1
     # via
     #   edx-lint
     #   pylint-celery
@@ -101,6 +101,10 @@ toml==0.10.2
     #   pylint
     #   pytest
     #   pytest-cov
+typing-extensions==3.10.0.2
+    # via
+    #   astroid
+    #   pylint
 wrapt==1.12.1
     # via astroid
 
