@@ -19,14 +19,14 @@ click-log==0.3.2
     # via edx-lint
 code-annotations==1.2.0
     # via edx-lint
-coverage[toml]==6.0.2
+coverage[toml]==6.1.1
     # via
     #   -r requirements/test.in
     #   pytest-cov
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.txt
-edx-lint==5.2.0
+edx-lint==5.2.1
     # via -r requirements/test.in
 iniconfig==1.1.1
     # via pytest
@@ -40,7 +40,7 @@ markupsafe==2.0.1
     # via jinja2
 mccabe==0.6.1
     # via pylint
-packaging==21.0
+packaging==21.2
     # via pytest
 pbr==5.6.0
     # via stevedore
@@ -68,7 +68,7 @@ pylint-plugin-utils==0.6
     # via
     #   pylint-celery
     #   pylint-django
-pyparsing==3.0.1
+pyparsing==2.4.7
     # via packaging
 pytest==6.2.5
     # via
@@ -106,7 +106,7 @@ typing-extensions==3.10.0.2
     # via
     #   astroid
     #   pylint
-wrapt==1.13.2
+wrapt==1.13.3
     # via astroid
 
 # The following packages are considered to be unsafe in a requirements file:
