@@ -56,7 +56,7 @@ iniconfig==1.1.1
     # via
     #   -r requirements/test.txt
     #   pytest
-isort==5.9.3
+isort==5.10.0
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -82,7 +82,7 @@ packaging==21.2
     #   -r requirements/test.txt
     #   pytest
     #   tox
-pbr==5.6.0
+pbr==5.7.0
     # via
     #   -r requirements/test.txt
     #   stevedore
@@ -106,7 +106,7 @@ pluggy==1.0.0
     #   -r requirements/test.txt
     #   pytest
     #   tox
-py==1.10.0
+py==1.11.0
     # via
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
@@ -203,7 +203,7 @@ typing-extensions==3.10.0.2
     #   -r requirements/test.txt
     #   astroid
     #   pylint
-virtualenv==20.9.0
+virtualenv==20.10.0
     # via
     #   -r requirements/ci.txt
     #   tox
