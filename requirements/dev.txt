@@ -4,7 +4,11 @@
 #
 #    make upgrade
 #
-astroid==2.8.4
+asgiref==3.4.1
+    # via
+    #   -r requirements/test.txt
+    #   django
+astroid==2.8.5
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -13,7 +17,7 @@ attrs==21.2.0
     # via
     #   -r requirements/test.txt
     #   pytest
-backports.entry-points-selectable==1.1.0
+backports.entry-points-selectable==1.1.1
     # via
     #   -r requirements/ci.txt
     #   virtualenv
@@ -33,7 +37,7 @@ code-annotations==1.2.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
-coverage[toml]==6.1.1
+coverage[toml]==6.1.2
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -41,7 +45,7 @@ distlib==0.3.3
     # via
     #   -r requirements/ci.txt
     #   virtualenv
-django==2.2.24
+django==3.2.9
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -56,11 +60,11 @@ iniconfig==1.1.1
     # via
     #   -r requirements/test.txt
     #   pytest
-isort==5.10.0
+isort==5.10.1
     # via
     #   -r requirements/test.txt
     #   pylint
-jinja2==3.0.2
+jinja2==3.0.3
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -198,7 +202,7 @@ tox==3.24.4
     #   tox-battery
 tox-battery==0.6.1
     # via -r requirements/dev.in
-typing-extensions==3.10.0.2
+typing-extensions==4.0.0
     # via
     #   -r requirements/test.txt
     #   astroid
