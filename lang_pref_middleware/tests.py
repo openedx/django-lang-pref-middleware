@@ -12,7 +12,7 @@ class LangPrefMiddlewareTestCaseMixin():
     def setUp(self):
         # pylint: disable=not-callable
         self.middleware = self.middleware_class()
-        self.session_middleware = SessionMiddleware()
+        self.session_middleware = SessionMiddleware()  # pylint: disable=no-value-for-parameter
         self.user = self.get_user()
         self.request = RequestFactory().get('/somewhere')
         self.request.user = self.user
@@ -63,7 +63,7 @@ class DummyLanguagePreferenceMiddleware(LanguagePreferenceMiddleware):
 
     def __init__(self):
         self._cache = {}
-        super().__init__()
+        super().__init__()  # pylint: disable=no-value-for-parameter
 
     def get_user_language_preference(self, user):
         return self._cache.get(user, None)
