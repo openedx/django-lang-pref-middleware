@@ -68,7 +68,7 @@ jinja2==3.0.3
     # via
     #   -r requirements/test.txt
     #   code-annotations
-lazy-object-proxy==1.6.0
+lazy-object-proxy==1.7.1
     # via
     #   -r requirements/test.txt
     #   astroid
