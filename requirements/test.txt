@@ -82,7 +82,7 @@ pytest-cov==3.0.0
     # via -r requirements/test.in
 pytest-django==4.5.2
     # via -r requirements/test.in
-python-slugify==6.0.1
+python-slugify==6.1.1
     # via code-annotations
 pytz==2021.3
     # via
