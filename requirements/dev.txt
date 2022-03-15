@@ -25,7 +25,7 @@ click==8.0.4
     #   code-annotations
     #   edx-lint
     #   pip-tools
-click-log==0.3.2
+click-log==0.4.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -139,7 +139,7 @@ pyparsing==3.0.7
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
     #   packaging
-pytest==7.0.1
+pytest==7.1.0
     # via
     #   -r requirements/test.txt
     #   pytest-cov
