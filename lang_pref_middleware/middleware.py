@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 from django.utils.deprecation import MiddlewareMixin
 
 

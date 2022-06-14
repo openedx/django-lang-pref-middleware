@@ -1,12 +1,13 @@
+# pylint: disable=missing-module-docstring
 import uuid
 from django.test import TestCase
 from django.test.client import RequestFactory
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User  # pylint: disable=imported-auth-user
 from django.contrib.sessions.middleware import SessionMiddleware
 from lang_pref_middleware.middleware import LanguagePreferenceMiddleware
 
 
-class LangPrefMiddlewareTestCaseMixin():
+class LangPrefMiddlewareTestCaseMixin():  # pylint: disable=missing-class-docstring
     middleware_class = None
 
     def setUp(self):
@@ -69,7 +70,7 @@ class DummyLanguagePreferenceMiddleware(LanguagePreferenceMiddleware):
         return self._cache.get(user, None)
 
 
-class LangPrefMiddlewareTests(LangPrefMiddlewareTestCaseMixin, TestCase):
+class LangPrefMiddlewareTests(LangPrefMiddlewareTestCaseMixin, TestCase):  # pylint: disable=missing-class-docstring
     middleware_class = DummyLanguagePreferenceMiddleware
 
     def get_user(self):
