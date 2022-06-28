@@ -210,7 +210,7 @@ typing-extensions==4.2.0
     #   -r requirements/test.txt
     #   astroid
     #   pylint
-virtualenv==20.14.1
+virtualenv==20.15.0
     # via
     #   -r requirements/ci.txt
     #   tox
