@@ -60,7 +60,7 @@ py==1.11.0
     # via pytest
 pycodestyle==2.8.0
     # via -r requirements/test.in
-pylint==2.14.3
+pylint==2.14.4
     # via
     #   edx-lint
     #   pylint-celery
@@ -109,7 +109,7 @@ tomli==2.0.1
     #   pytest
 tomlkit==0.11.0
     # via pylint
-typing-extensions==4.2.0
+typing-extensions==4.3.0
     # via
     #   astroid
     #   pylint
