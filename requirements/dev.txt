@@ -177,7 +177,6 @@ six==1.16.0
     #   -r requirements/test.txt
     #   edx-lint
     #   tox
-    #   virtualenv
 sqlparse==0.4.2
     # via
     #   -r requirements/test.txt
@@ -218,7 +217,7 @@ typing-extensions==4.3.0
     #   -r requirements/test.txt
     #   astroid
     #   pylint
-virtualenv==20.15.1
+virtualenv==20.16.0
     # via
     #   -r requirements/ci.txt
     #   tox
