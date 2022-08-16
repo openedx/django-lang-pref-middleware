@@ -55,7 +55,7 @@ django==3.2.15
     #   -r requirements/test.txt
 edx-lint==5.2.4
     # via -r requirements/test.txt
-filelock==3.7.1
+filelock==3.8.0
     # via
     #   -r requirements/ci.txt
     #   tox
@@ -92,7 +92,7 @@ packaging==21.3
     #   build
     #   pytest
     #   tox
-pbr==5.9.0
+pbr==5.10.0
     # via
     #   -r requirements/test.txt
     #   stevedore
@@ -163,7 +163,7 @@ python-slugify==6.1.2
     # via
     #   -r requirements/test.txt
     #   code-annotations
-pytz==2022.1
+pytz==2022.2.1
     # via
     #   -r requirements/test.txt
     #   django
@@ -202,7 +202,7 @@ tomli==2.0.1
     #   pep517
     #   pylint
     #   pytest
-tomlkit==0.11.2
+tomlkit==0.11.4
     # via
     #   -r requirements/test.txt
     #   pylint
