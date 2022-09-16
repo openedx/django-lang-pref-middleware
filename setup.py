@@ -91,7 +91,7 @@ setup(
     packages=['lang_pref_middleware'],
     author='edX',
     author_email='oscm@edx.org',
-    url='https://github.com/edx/django-lang-pref-middleware',
+    url='https://github.com/openedx/django-lang-pref-middleware',
     description="Django middleware for setting the user's language preference at request time.",
     long_description=open('README.md').read(),
     install_requires=load_requirements('requirements/base.in'),
