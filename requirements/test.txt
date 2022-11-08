@@ -34,7 +34,7 @@ dill==0.3.6
     #   -r requirements/base.txt
 edx-lint==5.3.0
     # via -r requirements/test.in
-exceptiongroup==1.0.0rc9
+exceptiongroup==1.0.1
     # via pytest
 iniconfig==1.1.1
     # via pytest
@@ -42,7 +42,7 @@ isort==5.10.1
     # via pylint
 jinja2==3.1.2
     # via code-annotations
-lazy-object-proxy==1.7.1
+lazy-object-proxy==1.8.0
     # via astroid
 markupsafe==2.1.1
     # via jinja2
@@ -54,7 +54,7 @@ pbr==5.11.0
     # via stevedore
 pep257==0.7.0
     # via -r requirements/test.in
-platformdirs==2.5.2
+platformdirs==2.5.3
     # via pylint
 pluggy==1.0.0
     # via pytest
@@ -86,7 +86,7 @@ pytest-django==4.5.2
     # via -r requirements/test.in
 python-slugify==6.1.2
     # via code-annotations
-pytz==2022.5
+pytz==2022.6
     # via
     #   -r requirements/base.txt
     #   django
@@ -107,7 +107,7 @@ tomli==2.0.1
     #   coverage
     #   pylint
     #   pytest
-tomlkit==0.11.5
+tomlkit==0.11.6
     # via pylint
 typing-extensions==4.4.0
     # via
