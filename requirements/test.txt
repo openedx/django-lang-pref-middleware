@@ -32,7 +32,7 @@ dill==0.3.6
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.txt
-edx-lint==5.3.0
+edx-lint==5.3.2
     # via -r requirements/test.in
 exceptiongroup==1.1.0
     # via pytest
@@ -107,7 +107,7 @@ tomli==2.0.1
     #   pytest
 tomlkit==0.11.6
     # via pylint
-typing-extensions==4.4.0
+typing-extensions==4.5.0
     # via
     #   astroid
     #   pylint
