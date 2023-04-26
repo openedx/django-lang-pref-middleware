@@ -1,6 +1,6 @@
 # Core dependencies for installing other packages
 -c constraints.txt
 
-pip<21.3  # pip==21.3 causes ImportError in pip-sync command when running make requirements
+pip
 setuptools
 wheel
