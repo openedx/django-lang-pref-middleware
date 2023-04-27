@@ -100,7 +100,7 @@ pep257==0.7.0
     # via -r requirements/test.txt
 pip-tools==6.13.0
     # via -r requirements/pip-tools.txt
-platformdirs==3.2.0
+platformdirs==3.4.0
     # via
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
@@ -192,7 +192,7 @@ tomli==2.0.1
     #   pyproject-hooks
     #   pytest
     #   tox
-tomlkit==0.11.7
+tomlkit==0.11.8
     # via
     #   -r requirements/test.txt
     #   pylint

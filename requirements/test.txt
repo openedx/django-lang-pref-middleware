@@ -52,7 +52,7 @@ pbr==5.11.1
     # via stevedore
 pep257==0.7.0
     # via -r requirements/test.in
-platformdirs==3.2.0
+platformdirs==3.4.0
     # via pylint
 pluggy==1.0.0
     # via pytest
@@ -103,7 +103,7 @@ tomli==2.0.1
     #   coverage
     #   pylint
     #   pytest
-tomlkit==0.11.7
+tomlkit==0.11.8
     # via pylint
 typing-extensions==4.5.0
     # via
