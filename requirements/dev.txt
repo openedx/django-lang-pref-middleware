@@ -33,7 +33,7 @@ code-annotations==1.3.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
-coverage[toml]==7.2.3
+coverage[toml]==7.2.5
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -45,7 +45,7 @@ distlib==0.3.6
     # via
     #   -r requirements/ci.txt
     #   virtualenv
-django==3.2.18
+django==3.2.19
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -100,7 +100,7 @@ pep257==0.7.0
     # via -r requirements/test.txt
 pip-tools==6.13.0
     # via -r requirements/pip-tools.txt
-platformdirs==3.2.0
+platformdirs==3.5.0
     # via
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
@@ -118,7 +118,7 @@ py==1.11.0
     #   tox
 pycodestyle==2.10.0
     # via -r requirements/test.txt
-pylint==2.17.3
+pylint==2.17.4
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -192,7 +192,7 @@ tomli==2.0.1
     #   pyproject-hooks
     #   pytest
     #   tox
-tomlkit==0.11.7
+tomlkit==0.11.8
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -208,7 +208,7 @@ typing-extensions==4.5.0
     #   -r requirements/test.txt
     #   astroid
     #   pylint
-virtualenv==20.22.0
+virtualenv==20.23.0
     # via
     #   -r requirements/ci.txt
     #   tox
