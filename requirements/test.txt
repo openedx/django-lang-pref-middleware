@@ -52,7 +52,7 @@ pbr==5.11.1
     # via stevedore
 pep257==0.7.0
     # via -r requirements/test.in
-platformdirs==3.5.3
+platformdirs==3.6.0
     # via pylint
 pluggy==1.0.0
     # via pytest
