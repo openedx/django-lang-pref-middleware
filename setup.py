@@ -101,6 +101,7 @@ setup(
         "Operating System :: OS Independent",
         "Framework :: Django",
         "Framework :: Django :: 3.2",
+        "Framework :: Django :: 4.2",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
     ]

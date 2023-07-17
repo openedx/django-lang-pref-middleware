@@ -1,9 +1,12 @@
 # pylint: disable=missing-module-docstring
 import uuid
-from django.test import TestCase
-from django.test.client import RequestFactory
+from unittest.mock import Mock
+
 from django.contrib.auth.models import User  # pylint: disable=imported-auth-user
 from django.contrib.sessions.middleware import SessionMiddleware
+from django.test import TestCase
+from django.test.client import RequestFactory
+
 from lang_pref_middleware.middleware import LanguagePreferenceMiddleware
 
 
@@ -12,8 +15,9 @@ class LangPrefMiddlewareTestCaseMixin():  # pylint: disable=missing-class-docstr
 
     def setUp(self):
         # pylint: disable=not-callable
-        self.middleware = self.middleware_class()
-        self.session_middleware = SessionMiddleware()  # pylint: disable=no-value-for-parameter
+        self.mock_response = Mock()
+        self.middleware = self.middleware_class(self.mock_response)
+        self.session_middleware = SessionMiddleware(self.mock_response)
         self.user = self.get_user()
         self.request = RequestFactory().get('/somewhere')
         self.request.user = self.user
@@ -62,9 +66,9 @@ class DummyLanguagePreferenceMiddleware(LanguagePreferenceMiddleware):
     This should not be used for any purpose outside of testing.
     """
 
-    def __init__(self):
+    def __init__(self, get_response):
         self._cache = {}
-        super().__init__()  # pylint: disable=no-value-for-parameter
+        super().__init__(get_response)
 
     def get_user_language_preference(self, user):
         return self._cache.get(user, None)
