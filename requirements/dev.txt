@@ -98,9 +98,9 @@ pbr==5.11.1
     #   stevedore
 pep257==0.7.0
     # via -r requirements/test.txt
-pip-tools==7.1.0
+pip-tools==7.2.0
     # via -r requirements/pip-tools.txt
-platformdirs==3.9.1
+platformdirs==3.10.0
     # via
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
@@ -116,9 +116,9 @@ py==1.11.0
     # via
     #   -r requirements/ci.txt
     #   tox
-pycodestyle==2.10.0
+pycodestyle==2.11.0
     # via -r requirements/test.txt
-pylint==2.17.4
+pylint==2.17.5
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -193,7 +193,7 @@ tomli==2.0.1
     #   pyproject-hooks
     #   pytest
     #   tox
-tomlkit==0.11.8
+tomlkit==0.12.1
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -214,7 +214,7 @@ virtualenv==20.24.2
     # via
     #   -r requirements/ci.txt
     #   tox
-wheel==0.41.0
+wheel==0.41.1
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
