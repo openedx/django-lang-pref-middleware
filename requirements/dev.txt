@@ -215,9 +215,6 @@ tomlkit==0.12.2
 tox==4.11.3
     # via
     #   -r requirements/ci.txt
-    #   tox-battery
-tox-battery==0.6.1
-    # via -r requirements/dev.in
 typing-extensions==4.8.0
     # via
     #   -r requirements/test.txt
