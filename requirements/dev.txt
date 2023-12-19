@@ -8,7 +8,7 @@ asgiref==3.7.2
     # via
     #   -r requirements/test.txt
     #   django
-astroid==3.0.1
+astroid==3.0.2
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -45,7 +45,7 @@ colorama==0.4.6
     # via
     #   -r requirements/ci.txt
     #   tox
-coverage[toml]==7.3.2
+coverage[toml]==7.3.3
     # via
     #   -r requirements/test.txt
     #   coverage
@@ -54,7 +54,7 @@ dill==0.3.7
     # via
     #   -r requirements/test.txt
     #   pylint
-distlib==0.3.7
+distlib==0.3.8
     # via
     #   -r requirements/ci.txt
     #   virtualenv
@@ -81,7 +81,7 @@ iniconfig==2.0.0
     # via
     #   -r requirements/test.txt
     #   pytest
-isort==5.13.1
+isort==5.13.2
     # via
     #   -r requirements/test.txt
     #   pylint

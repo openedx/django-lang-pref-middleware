@@ -8,7 +8,7 @@ asgiref==3.7.2
     # via
     #   -r requirements/base.txt
     #   django
-astroid==3.0.1
+astroid==3.0.2
     # via
     #   pylint
     #   pylint-celery
@@ -21,7 +21,7 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==1.5.0
     # via edx-lint
-coverage[toml]==7.3.2
+coverage[toml]==7.3.3
     # via
     #   -r requirements/test.in
     #   pytest-cov
@@ -36,7 +36,7 @@ exceptiongroup==1.2.0
     # via pytest
 iniconfig==2.0.0
     # via pytest
-isort==5.13.1
+isort==5.13.2
     # via pylint
 jinja2==3.1.2
     # via code-annotations
