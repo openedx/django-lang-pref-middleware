@@ -21,11 +21,11 @@ click-log==0.4.0
     # via edx-lint
 code-annotations==1.5.0
     # via edx-lint
-coverage[toml]==7.4.0
+coverage[toml]==7.4.1
     # via
     #   -r requirements/test.in
     #   pytest-cov
-dill==0.3.7
+dill==0.3.8
     # via pylint
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
@@ -52,7 +52,7 @@ pep257==0.7.0
     # via -r requirements/test.in
 platformdirs==4.1.0
     # via pylint
-pluggy==1.3.0
+pluggy==1.4.0
     # via pytest
 pycodestyle==2.11.1
     # via -r requirements/test.in
@@ -70,7 +70,7 @@ pylint-plugin-utils==0.8.2
     # via
     #   pylint-celery
     #   pylint-django
-pytest==7.4.4
+pytest==8.0.0
     # via
     #   pytest-cov
     #   pytest-django
@@ -78,9 +78,9 @@ pytest-cov==4.1.0
     # via -r requirements/test.in
 pytest-django==4.7.0
     # via -r requirements/test.in
-python-slugify==8.0.1
+python-slugify==8.0.2
     # via code-annotations
-pytz==2023.3.post1
+pytz==2023.4
     # via
     #   -r requirements/base.txt
     #   django
