@@ -48,7 +48,6 @@ colorama==0.4.6
 coverage[toml]==7.4.1
     # via
     #   -r requirements/test.txt
-    #   coverage
     #   pytest-cov
 dill==0.3.8
     # via
@@ -112,7 +111,7 @@ pbr==6.0.0
     #   stevedore
 pep257==0.7.0
     # via -r requirements/test.txt
-pip-tools==7.3.0
+pip-tools==7.4.0
     # via -r requirements/pip-tools.txt
 platformdirs==4.2.0
     # via
@@ -157,7 +156,8 @@ pyproject-hooks==1.0.0
     # via
     #   -r requirements/pip-tools.txt
     #   build
-pytest==8.0.0
+    #   pip-tools
+pytest==8.0.1
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -211,7 +211,7 @@ tomlkit==0.12.3
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.12.1
+tox==4.13.0
     # via -r requirements/ci.txt
 typing-extensions==4.9.0
     # via
