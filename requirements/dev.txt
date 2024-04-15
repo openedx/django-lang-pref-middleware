@@ -115,8 +115,6 @@ pbr==6.0.0
     # via
     #   -r requirements/test.txt
     #   stevedore
-pep257==0.7.0
-    # via -r requirements/test.txt
 pip-tools==7.4.1
     # via -r requirements/pip-tools.txt
 platformdirs==4.2.0

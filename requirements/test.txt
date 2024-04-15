@@ -53,8 +53,6 @@ packaging==24.0
     # via pytest
 pbr==6.0.0
     # via stevedore
-pep257==0.7.0
-    # via -r requirements/test.in
 platformdirs==4.2.0
     # via pylint
 pluggy==1.4.0
