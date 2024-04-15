@@ -5,7 +5,6 @@
 
 coverage
 edx-lint                  # edX pylint rules and plugins
-pep257                    # PEP 257 doc style validation
 pycodestyle               # PEP 8 compliance validation
 pytest-cov
 pytest-django
