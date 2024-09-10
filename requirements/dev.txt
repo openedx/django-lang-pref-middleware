@@ -13,11 +13,11 @@ astroid==3.2.4
     #   -r requirements/test.txt
     #   pylint
     #   pylint-celery
-build==1.2.1
+build==1.2.2
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-cachetools==5.4.0
+cachetools==5.5.0
     # via
     #   -r requirements/ci.txt
     #   tox
@@ -57,13 +57,13 @@ distlib==0.3.8
     # via
     #   -r requirements/ci.txt
     #   virtualenv
-django==4.2.15
+django==4.2.16
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
-edx-lint==5.3.7
+edx-lint==5.4.0
     # via -r requirements/test.txt
-filelock==3.15.4
+filelock==3.16.0
     # via
     #   -r requirements/ci.txt
     #   tox
@@ -97,7 +97,7 @@ packaging==24.1
     #   pyproject-api
     #   pytest
     #   tox
-pbr==6.0.0
+pbr==6.1.0
     # via
     #   -r requirements/test.txt
     #   stevedore
@@ -105,7 +105,7 @@ pep257==0.7.0
     # via -r requirements/test.txt
 pip-tools==7.4.1
     # via -r requirements/pip-tools.txt
-platformdirs==4.2.2
+platformdirs==4.3.2
     # via
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
@@ -120,7 +120,7 @@ pluggy==1.5.0
     #   tox
 pycodestyle==2.12.1
     # via -r requirements/test.txt
-pylint==3.2.6
+pylint==3.2.7
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -149,14 +149,14 @@ pyproject-hooks==1.1.0
     #   -r requirements/pip-tools.txt
     #   build
     #   pip-tools
-pytest==8.3.2
+pytest==8.3.3
     # via
     #   -r requirements/test.txt
     #   pytest-cov
     #   pytest-django
 pytest-cov==5.0.0
     # via -r requirements/test.txt
-pytest-django==4.8.0
+pytest-django==4.9.0
     # via -r requirements/test.txt
 python-slugify==8.0.4
     # via
@@ -174,7 +174,7 @@ sqlparse==0.5.1
     # via
     #   -r requirements/test.txt
     #   django
-stevedore==5.2.0
+stevedore==5.3.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -182,13 +182,13 @@ text-unidecode==1.3
     # via
     #   -r requirements/test.txt
     #   python-slugify
-tomlkit==0.13.0
+tomlkit==0.13.2
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.17.1
+tox==4.18.1
     # via -r requirements/ci.txt
-virtualenv==20.26.3
+virtualenv==20.26.4
     # via
     #   -r requirements/ci.txt
     #   tox
