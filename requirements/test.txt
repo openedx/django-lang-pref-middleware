@@ -8,7 +8,7 @@ asgiref==3.8.1
     # via
     #   -r requirements/base.txt
     #   django
-astroid==3.2.4
+astroid==3.3.4
     # via
     #   pylint
     #   pylint-celery
@@ -46,15 +46,13 @@ packaging==24.1
     # via pytest
 pbr==6.1.0
     # via stevedore
-pep257==0.7.0
-    # via -r requirements/test.in
-platformdirs==4.3.2
+platformdirs==4.3.6
     # via pylint
 pluggy==1.5.0
     # via pytest
 pycodestyle==2.12.1
     # via -r requirements/test.in
-pylint==3.2.7
+pylint==3.3.0
     # via
     #   edx-lint
     #   pylint-celery
