@@ -1,3 +1,8 @@
+⚠️ DEPRECATION WARNING
+======================
+
+This repository is deprecated. It will no longer receive maintenance, support, or updates from the Open edX project.
+
 Django Language Preference Middleware
 =====================================
 
